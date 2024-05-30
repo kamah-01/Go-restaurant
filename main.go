@@ -31,6 +31,6 @@ func main() {
 	routes.OrderItemRoutes(router)
 	routes.InvoiceRoutes(router)
 
-	routes.run(":" + port)
+	router.run(":" + port)
 
 }
